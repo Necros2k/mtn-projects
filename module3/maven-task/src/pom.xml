@@ -54,24 +54,6 @@
     </executions>
   </plugin>
 
-<!-- <plugin>
-   <groupId>com.keyboardsamurais.maven</groupId>
-   <artifactId>maven-timestamp-plugin</artifactId>
-   <version>1.0</version>
-   <configuration>
-    <propertyName>timestamp</propertyName>
-    <timestampPattern>dd.MM.yyyy-HH-mm</timestampPattern>
-   </configuration>
-   <executions>
-    <execution>
-     <goals>
-      <goal>create</goal>
-     </goals>
-    </execution>
-   </executions>
-  </plugin>
--->
-
 <plugin>
 <artifactId>maven-assembly-plugin</artifactId>
 <configuration>
