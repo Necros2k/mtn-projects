@@ -9,6 +9,21 @@
     <version>1.1.1.1-release</version>
     <name>APV</name>
 
+<dependencies>
+	<dependency>
+		<groupId>commons-collections</groupId>
+		<artifactId>commons-collections</artifactId>
+		<version>3.2.1</version>
+		<scope>compile</scope>
+	</dependency>
+	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>4.11</version>
+		<scope>test</scope>
+	</dependency>
+</dependencies>
+
 <properties>
 <timestamp>${maven.build.timestamp}</timestamp>
 <maven.build.timestamp.format>HH:mm_dd-MM-yyyy</maven.build.timestamp.format>
@@ -81,19 +96,5 @@
 </plugin>
 </plugins>
 </build>
-
-<dependencies>
- <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.8.1</version>
-      <scope>test</scope>
- </dependency>
- <dependency>
-    <groupId>commons-collections</groupId>
-    <artifactId>commons-collections</artifactId>
-    <version>3.2.1</version>
- </dependency>
-</dependencies>
 
 </project> 
